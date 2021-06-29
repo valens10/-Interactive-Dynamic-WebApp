@@ -1,8 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(120deg, #f6d365, #fda085);
+}
 .column {
   float: left;
   width: 50%;
   flex: 50%;
   margin: 6px;
+}
+button {
+  padding: 3px;
+  border-radius: 10px;
+  outline: none;
+  border-color: #fda085;
+  margin-bottom: 2px;
 }
 
 li {

@@ -5,7 +5,6 @@ async function getUsersApi() {
         const response = await fetch(api_url + 'users');
         return await response.json();
     } catch (error) {
-        console.error(error)
     };
 };
 
@@ -14,6 +13,5 @@ async function getUserPostsApi(endpoint) {
         const response = await fetch(api_url + endpoint);
         return await response.json();
     } catch (error) {
-        console.error(error)
     };
 };
